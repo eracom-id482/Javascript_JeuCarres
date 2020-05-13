@@ -1,0 +1,11 @@
+:root {
+    --dark-blue: #293f74;
+    --light-blue: #4562a9;
+    --pink: #f5a997;
+    --orange: #ed6840;
+    --yellow: #f9b34c;
+    --white: #f1e7d0;
+}
+
+
+/* === | code pour intégrer les varriables à metre tout en haut : @import url('..../variables.css'); | ===*/

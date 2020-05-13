@@ -1,0 +1,19 @@
+/* importation des couleurs (à ne pas toucher) : */
+
+@import url('../../resources/couleurs.css');
+
+/* couleurs à choix :
+    --dark-blue
+    --light-blue
+    --pink
+    --orange
+    --yellow
+    --white
+*/
+
+
+/* votre code : */
+
+body {
+    background: var(--white);
+}
