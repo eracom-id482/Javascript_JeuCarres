@@ -1,9 +1,9 @@
-## Les rôles de Chacun :
+## Les rôles de ChacunE :
 
 - Dany - Résponsable des contraintes, fera régner l’ordre et la discipline au sein du groupe et veillera à faire respecter les règles établies
 - Phoenix - Responsable du code et chef du village
 - Tamara - Responsable de publication
-- Marionn - Responsable game design
+- Marion - Responsable game design
 - Robin - Responsable communication, ambiance du groupe et cohésion. Il veille à la cohabitation des participants
 - Ana - Responsable Post-it :’(
 - Esteban, Evan & Lucien - Rôle à déterminer
