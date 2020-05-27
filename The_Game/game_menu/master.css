@@ -1,1 +1,66 @@
-@import url('variables.css');
+/* importation des couleurs (à ne pas toucher) : */
+
+@import url('../resources/couleurs.css');
+
+/* couleurs à choix :
+    --dark-blue
+    --light-blue
+    --pink
+    --orange
+    --yellow
+    --white
+*/
+
+
+/* votre code : */
+
+body {
+    background: var(--white);
+    margin: 0;
+    overflow: hidden;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70vw;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.games_names {
+    width: 30vw;
+    height: 100vh;
+    jus
+}
+
+.games_names h1 {
+    font-family: var(--typo);
+    font-weight: 100;
+    font-size: 3em;
+    margin: 50px 0;
+}
+
+.carre {
+    background: var(--yellow);
+    width: 200px;
+    height: 200px;
+}
+
+
+/*
+.carre:hover {
+    background: var(--dark-blue);
+    transform: scale(1.2);
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}*/
