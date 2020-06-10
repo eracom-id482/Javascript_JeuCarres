@@ -13,7 +13,48 @@
 
 
 /* votre code : */
+    body {
+        background: var(--pink);
+        margin: 0;
+        overflow: hidden;
+    }
 
-body {
-    background: var(--white);
-}
+    main {
+        display: flex;
+        flex-direction: row;
+    }
+
+    section {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        vertical-align: top;
+        width: 100vw;
+        height: 100vh;
+        flex-direction: row;
+    }
+
+    .games_names {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 500px;
+        align-self: center;
+    }
+
+    .games_names h1 {
+        font-family: var(--typo);
+        color: var(--white);
+        font-weight: 100;
+        font-size: 1.5em;
+        margin: 0;
+        padding: 5px 20px;
+        background-color: var(--light-blue);
+    }
+
+    #carre {
+        background: transparent;
+        width: 500px;
+        height: 500px;
+
+    }
