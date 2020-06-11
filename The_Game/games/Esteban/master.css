@@ -1,19 +1,108 @@
-/* importation des couleurs (à ne pas toucher) : */
+@charset "UTF-8";
+/* CSS Document */
 
-@import url('../../resources/couleurs.css');
+html, body {
+	padding: 0;
+	margin: 0;
+	font-family: 'Roboto', sans-serif;
+	height: 100vh;
+}
 
-/* couleurs à choix :
-    --dark-blue
-    --light-blue
-    --pink
-    --orange
-    --yellow
-    --white
-*/
+.content_format_carre {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	align-content: center;
+	align-items: center;
+	justify-content: center;
+	background-color: #ED6840;
+}
+
+.wrapper_format_carre {
+	width: 320px;
+	height: 320px;
+	margin: 0 auto;
+	display: inline-block;
+	position: relative;
+	border: solid 3px #F5A997;
+}
+
+button {
+	font-size: 4em;
+	cursor: pointer;
+	background-color: #F1E7D0;
+	color: #293F74;
+	border-radius: 20px;
+	border-color: #F5A997;
+	
+}
+
+.choix {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+	height: 100%;
+	background-color: #293F74;
+}
+
+.resultat {
+	height: 100%;
+	width : 100%;
+	background: #F1E7D0;
+	position: absolute;
+	top: 0;
+	display: none;
+	flex-direction: column;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+}
+
+.rejouer {
+	display: none;
+	position: absolute;
+	bottom: 0;
+	font-size: 30px;
+	cursor: pointer;
+	background: #293F74;
+	border-radius: 20px;
+	border: solid #F5A997;
+	color: #F1E7D0;
+	padding: 5px;
+	margin: 5px;
+}
+
+.joueur {
+	color: #293F74;
+	font-size: 40px;
+	font-weight: 600;
+}
+
+.robot {
+	font-size:40px;
+	color: #293F74;
+	font-weight: 600;
+}
+
+.fin {
+	color: #ED6840;
+	font-size: 40px;
+	font-weight: 1000;
+}
 
 
-/* votre code : */
 
-body {
-    background: var(--white);
+.egalite {
+	color: #ED6840;
+	font-size: 40px;
+	font-weight: 1000;
+}
+
+.gagne {
+	color: #ED6840;
+	font-size: 40px;
+	font-weight: 1000;
 }
